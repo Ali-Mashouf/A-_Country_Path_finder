@@ -7,5 +7,5 @@
 
 *The A* algorithm, unlike other graph traversal methods, possesses "intelligence." This means A* is a highly smart algorithm, and this very characteristic distinguishes it from other conventional algorithms.
 *What the A* algorithm does is that at each step, it selects a node based on its f value—a parameter equal to the sum of two other parameters, g and h. At each step, it chooses and processes the node/cell with the lowest f value. g and h are calculated in a straightforward manner as described below:
-* g: The cost of moving from the start point to a specific square on the grid by following the path generated to reach it.
-* h: The estimated cost to move from a given cell on the grid to the final destination. h is often referred to as the heuristic. A heuristic is essentially an educated guess. The actual distance isn't known until the path is found because various obstacles (walls, water, etc.) might be present.
+* *g: The cost of moving from the start point to a specific square on the grid by following the path generated to reach it.
+* *h: The estimated cost to move from a given cell on the grid to the final destination. h is often referred to as the heuristic. A heuristic is essentially an educated guess. The actual distance isn't known until the path is found because various obstacles (walls, water, etc.) might be present.
