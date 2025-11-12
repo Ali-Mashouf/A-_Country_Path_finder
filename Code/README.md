@@ -25,9 +25,18 @@ ____These values help the algorithm prioritize promising paths____
 
 * *goal: Target point (user input)*
 
-# Priority Queue (PriorityQueue)
+## Priority Queue (PriorityQueue)
 
 ____Elements are sorted based on priority____
 * *Priority = Actual Cost + Estimated Cost*
 
-  
+## Path Storage (W_node)
+____Used for path reconstruction____
+
+____Stores which node we came from to reach the current node____
+
+## Costs (S_cost)
+____Actual cost to reach each node from the start____
+
+* *Zero for the start node*
+
