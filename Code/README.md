@@ -42,27 +42,27 @@ ____Actual cost to reach each node from the start____
 
 ## Algorithm Steps
 1. Initialization
-Start node is placed in the queue with zero cost
+* *Start node is placed in the queue with zero cost*
 
 2. Main Loop
-Continues until the queue is empty
+* *Continues until the queue is empty*
 
-The node with the lowest priority is removed from the queue
+* *The node with the lowest priority is removed from the queue*
 
 3. Goal Check
-If we reached the goal, we reconstruct the path
+* *If we reached the goal, we reconstruct the path*
 
-We reverse the path to go from start to goal
+* *We reverse the path to go from start to goal*
 
 4. For each neighbor:
-We calculate the new cost
+* *We calculate the new cost*
 
-If it's better than the previous path:
+- If it's better than the previous path:
 
-We update the cost
+* *We update the cost*
 
-We calculate the priority
+* *We calculate the priority*
 
-We place it in the queue
+* *We place it in the queue*
 
-We store the path
+* *We store the path*
