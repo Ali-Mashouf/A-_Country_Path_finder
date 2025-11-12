@@ -57,7 +57,7 @@ ____Actual cost to reach each node from the start____
 4. For each neighbor:
 * *We calculate the new cost*
 
-- If it's better than the previous path:
+#### If it's better than the previous path:
 
 * *We update the cost*
 
