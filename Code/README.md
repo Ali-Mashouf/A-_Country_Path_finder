@@ -24,3 +24,10 @@ ____These values help the algorithm prioritize promising paths____
 * *start: Starting point (Iran)*
 
 * *goal: Target point (user input)*
+
+# Priority Queue (PriorityQueue)
+
+____Elements are sorted based on priority____
+* *Priority = Actual Cost + Estimated Cost*
+
+  
